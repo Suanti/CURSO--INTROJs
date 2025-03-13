@@ -1,2 +1,2 @@
-example
-console.log("Probando cambios en Git")
+// intento de modificar archivo
+// segundo intento 
