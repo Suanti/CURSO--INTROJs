@@ -77,18 +77,31 @@ if ( nota >= 6) {console.log('APROVADO');} else {console.log('DESAPROVADO')}
 /* ●	Ejercicio 1 - Declarar dos variables: 
 Nuestra tarea será declarar dos variables: una con el nombre edad y la otra con el nombre peso. Después deberás asignarle un valor.
 Pista: Recordemos que para crear una variable debemos utilizar la palabra reservada "let", seguida del nombre con el cual luego le haremos referencia.
-
+*/
+let nombre= 'nombre') 
+let peso = 'peso'
+console.log(nombre + peso)
+/*
 ●	Ejercicio 2 – Usando las variables: 
 Escribe un programa que pida al usuario que ingrese su nombre, su edad y su peso, y luego muestre un mensaje personalizado que incluya toda esta información.
- */
-
 /* Desglosando el ejercicio deberás:
 1.	Pide al usuario que ingrese su nombre.
 2.	Pide al usuario que ingrese su edad.
 3.	Pide al usuario que ingrese su peso.
 4.	Muestra un mensaje personalizado que incluya el nombre, la edad y el peso del usuario.
 Pista: En el ejercicio anterior, declaramos valores en las variables. Ahora nos toca pedir datos al usuario, por lo que usaremos prompt para solicitar esta información.
-
+*/
+// SOLUCIÓN CON ""
+let nombre = prompt("inngrese su nombre")
+let edad =parseFloat(prompt("ingrese su edad"))
+let peso =parseFloat(prompt("ingrese su peso"))
+console.log("Nombre: " + nombre + ", Edad: " + edad + " años, Peso: " + peso + " kg")
+// SOLUCION CON ${}
+let nombre = prompt("Ingrese su nombre");
+let edad = parseFloat(prompt("Ingrese su edad"));
+let peso = parseFloat(prompt("Ingrese su peso"));
+console.log(`Nombre: ${nombre}, Edad: ${edad} años, Peso: ${peso} kg`)
+/*
 ●	Ejercicio 3 – Constantes / Validación de Edad: 
 Más adelante vamos a querer validar que nuestros encuestados sean de 18 años de edad mínima y 99 años de edad máxima. 
 Nadie puede cambiar esas definiciones, por lo tanto, vamos a escribirlas en dos constantes (asignándoles los valores numéricos 18 y 99 respectivamente). Por último, deberás pedirle al usuario que ingrese su edad para validarla usando parseInt.
