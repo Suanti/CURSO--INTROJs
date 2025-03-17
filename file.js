@@ -114,7 +114,12 @@ Desglosando el ejercicio deberás:
 4.	Valida si la edad ingresada está dentro del rango permitido y muestra un mensaje adecuado.
 
 Pista: Las constantes se declaran con la palabra reservada const y es buena práctica que sus nombres sean declarados siempre con letras mayúsculas. Utiliza parseInt para convertir la entrada del usuario a un número entero.
-
+*/
+const EDAD_MINIMA= 18
+const EDAD_MAXIMA= 99
+let EdadUsuario = parseInt(prompt( 'ingrese su edad'))
+if ( EdadUsuario >= 18 && EdadUsuario <= 99 ) { console.log('Ok');} else { console.log ('edad insuficiente');}
+/*
 ●	Ejercicio 4 – Tipo de Datos: 
 Declarar 4 variables utilizando la palabra reservada let y asignarles valores según el tipo de dato que sugiere su nombre. Además, realizar operaciones y validaciones adicionales sobre estos valores.
 
