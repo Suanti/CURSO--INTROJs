@@ -150,7 +150,12 @@ Operaciones y Validaciones:
 2.	Concatena el “string” de la variable texto con otro mensaje adicional.
 3.	Verifica si la variable “verdadero” es true o false y muestra un mensaje diferente según el resultado.
 4.	Implementa una condición para verificar si la variable nada es null y muestra un mensaje si es así.
-
+*/
+console.log( numero + 5)
+console.log ( texto + 'no te rindas !')
+if ( verdadero ) {console.log('Es true!')} else {console.log('no es True')}
+if (nada === null ) { console.log('bien hecho, es null');}
+/*
 ●	Ejercicio 5 – Operadores:
 Vimos cómo declarar una variable y asignarle un valor, y probablemente surgió la siguiente pregunta: ¿para qué sirve almacenar datos en variables? Las variables nos permiten reutilizar el dato asignado en la misma con sólo invocar su nombre.
 También, algo muy importante, así como podemos hacer operaciones matemáticas como sumar (+) o restar (-) números, podemos hacer lo mismo con las variables que las referencian.
