@@ -136,7 +136,14 @@ Declaración de Variables:
 2.	Declara una variable llamada texto y asígnale un string de tu elección (puedes usar cualquier mensaje que prefieras).
 3.	Declara una variable llamada numero y asígnale un dato numérico (puedes usar cualquier número entero o decimal).
 4.	Declara una variable llamada nada y asígnale un valor que represente la ausencia de valor en JavaScript.
+*/
+// DECLARACION DE VARIABLES
+let verdadero = true
+let texto = 'felicitaciones ! estas avanzando'
+let numero = 3.1416
+let nada = null
 
+/*
 Operaciones y Validaciones:
 
 1.	Realiza una operación matemática usando la variable número, por ejemplo, suma o resta con otro número de tu elección.
