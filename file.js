@@ -173,7 +173,18 @@ Mostrar Resultados:
 1.	Utiliza console.log(nombreDeLaVariable) para imprimir cada uno de los resultados y ver cómo se ven los mismos.
 Pista 1: Recuerda que para crear una variable utilizamos la palabra "let" seguida del nombre al cual vamos a hacer referencia.
 Pista 2: Para asignar el valor a una variable utilizamos el operador "=" seguido del valor que queremos asignarle.
-
+*/
+let PrimerNumero = parseInt(prompt('ingrese su primer número'))
+let SegundoNumero = parseInt(prompt('ingrese su segundo número'))
+let sumatoria = PrimerNumero + SegundoNumero
+console.log(sumatoria)
+let resta = PrimerNumero - SegundoNumero
+console.log(resta)
+let multiplicacion = PrimerNumero * SegundoNumero
+console.log(multiplicacion)
+let divicion = PrimerNumero / SegundoNumero
+console.log(divicion)
+/*
 ●	Ejercicio 6 - Comparaciones y Operadores Lógicos: 
 Declara dos variables con valores numéricos. Utiliza operadores de comparación y lógicos para verificar si ambos números son mayores que 10 y muestra el resultado en la consola.
 
