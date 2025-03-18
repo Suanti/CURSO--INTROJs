@@ -219,6 +219,17 @@ a = b;
 b = cambio;
 console.log("Después del intercambio: a =", a, ", b =", b);
 
+// VARIABLE ARITMÉTICA
+let a = 5;
+let b = 10;
+console.log("Antes del intercambio: a =", a, ", b =", b);
+a = a + b; // a ahora es 15
+b = a - b; // b ahora es 5 (valor original de a)
+a = a - b; // a ahora es 10 (valor original de b)
+console.log("Después del intercambio: a =", a, ", b =", b);
+
+
+
 /*
 ●	Ejercicio 8 - Conversión de Temperaturas: Escribe un programa que convierta una temperatura dada en grados Celsius a grados Fahrenheit. La fórmula de conversión es: 
 
