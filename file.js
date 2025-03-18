@@ -253,13 +253,17 @@ console.log(fahrenheit)
 
 ●	Ejercicio 9: Cálculo del IMC: Escribe un programa que calcule el Índice de Masa Corporal (IMC). El IMC se calcula con la fórmula: 
 
- 
-
 Pide al usuario que ingrese su peso y su altura, y muestra el IMC calculado.
 Pista 1: Investiga que es ParseFloat, ya que el ejercicio lo requiere
 Pista 2: La fórmula puede representarse así:
 
 let imc = peso / (altura * altura);
+*/
+let altura = parseFloat(prompt('ingrese su altura'))
+let peso = parseFloat(prompt('ingrese su peso en Kg'))
+let IMC = peso / (altura * altura)
+console.log(IMC)
+/*
 
 ●	Ejercicio 10 - Cálculo de Descuento: Escribe un programa que calcule el precio final de un producto después de aplicar un descuento. Pide al usuario que ingrese el precio original y el porcentaje de descuento, y muestra el precio final.
 Pista 1: Investiga que es ParseFloat, ya que el ejercicio lo requiere
