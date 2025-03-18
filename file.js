@@ -201,7 +201,11 @@ Pista: Recuerda que para crear una variable utilizamos la palabra "let" seguida 
 Pista 2: Los operadores de comparación en JavaScript son >, <, >=, <=, ===, !==. El operador lógico "&&" (y lógico) se utiliza para combinar condiciones y todas deben cumplirse para que el resultado sea verdadero.
 
 Hasta ahora te di los pasos detallados a seguir para desarrollar los ejercicios. Ahora es tu turno de desglosar los ejercicios para conseguir los pasos.
-
+*/
+let num1 = parseFloat(prompt('ingrese su primer número'))
+let num2 = parseFloat(prompt('ingrese su segundo número'))
+num1 > 10 && num2 > 10 ? console.log(' son mayores que 10'): console.log('sigue intentando!');
+/*
 ●	Ejercicio 7 - Intercambio de Valores: Declara dos variables con valores iniciales y luego intercambia sus valores. Muestra los valores antes y después del intercambio en la consola.
 Para intercambiar valores puedes usar varios métodos(usando una variable temporal, aritmética o asignación simultanea), eres libre de elegir el que desees, eso si, investiga sobre el que usarás.
 
