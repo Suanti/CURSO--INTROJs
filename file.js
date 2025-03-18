@@ -208,7 +208,18 @@ num1 > 10 && num2 > 10 ? console.log(' son mayores que 10'): console.log('sigue 
 /*
 ●	Ejercicio 7 - Intercambio de Valores: Declara dos variables con valores iniciales y luego intercambia sus valores. Muestra los valores antes y después del intercambio en la consola.
 Para intercambiar valores puedes usar varios métodos(usando una variable temporal, aritmética o asignación simultanea), eres libre de elegir el que desees, eso si, investiga sobre el que usarás.
+*/
 
+// VARIABLE TEMPORAL
+let a = 5;
+let b = 10;
+console.log("Antes del intercambio: a =", a, ", b =", b);
+let cambio = a;
+a = b;
+b = cambio;
+console.log("Después del intercambio: a =", a, ", b =", b);
+
+/*
 ●	Ejercicio 8 - Conversión de Temperaturas: Escribe un programa que convierta una temperatura dada en grados Celsius a grados Fahrenheit. La fórmula de conversión es: 
 
  
