@@ -238,13 +238,18 @@ console.log("Después del intercambio: a =", a, ", b =", b);
 /*
 ●	Ejercicio 8 - Conversión de Temperaturas: Escribe un programa que convierta una temperatura dada en grados Celsius a grados Fahrenheit. La fórmula de conversión es: 
 
- 
-
 Pide al usuario que ingrese la temperatura en Celsius y muestra el resultado en Fahrenheit.
 	Pista 1: Investiga que es ParseFloat, ya que el ejercicio lo requiere
 Pista 2: La fórmula puede representarse así: 
 let fahrenheit = celsius * 9 / 5 + 32; 
 let fahrenheit = ºC * 1,8 + 32;  - es lo mismo - (9/5 = 1.8)
+*/
+
+let celsius = parseFloat(prompt(' ingrese el valor a convertir'))
+let fahrenheit = (celsius*9/5)+ 32
+console.log(fahrenheit)
+
+/*
 
 ●	Ejercicio 9: Cálculo del IMC: Escribe un programa que calcule el Índice de Masa Corporal (IMC). El IMC se calcula con la fórmula: 
 
