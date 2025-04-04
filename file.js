@@ -298,3 +298,12 @@ let valorcompra = parseFloat(prompt('ingrese el valor de la compra'))
 let edad = parseInt(prompt ('ingrese la edad del cliente'))
 if (edad >= 65) {console.log (`felicidades ! 15% OFF , precio total ${valorcompra * 0.85}`);
 } else {console.log(`ho hay descuento, precio total = ${valorcompra}`);}
+
+//Ejercicio 3: Conversor de monedas
+// Solicita al usuario un monto en dólares y una tasa de cambio a pesos.
+//  Usa una función flecha para convertir el monto a pesos.
+
+let dolares= parseFloat(prompt('ingrese el monto en dolares'))
+let tasa= parseFloat(prompt('ingrese la tasa de cambio a pesos '))
+let enPesos= (dolares,tasa)=> dolares*tasa ;
+console.log(`su valor es ${enPesos(dolares,tasa)}`)
