@@ -287,3 +287,14 @@ let año= parseInt(prompt('ingrese su año de nacimiento'))
 let añoActual= 2025
 let edad = añoActual- año
 console.log (`tienes ${edad} años`)
+
+//Ejercicio 2: Cálculo de descuento por edad
+/* Ejercicio 2: Cálculo de descuento por edad
+Solicita al usuario su edad y usa una función flecha para aplicar un descuento dependiendo de la edad. Puedes tomar punto de partida los siguientes datos:
+✔ 65 años = 15% de descuento
+✔ Menor a 65 = No hay descuento */
+
+let valorcompra = parseFloat(prompt('ingrese el valor de la compra'))
+let edad = parseInt(prompt ('ingrese la edad del cliente'))
+if (edad >= 65) {console.log (`felicidades ! 15% OFF , precio total ${valorcompra * 0.85}`);
+} else {console.log(`ho hay descuento, precio total = ${valorcompra}`);}
