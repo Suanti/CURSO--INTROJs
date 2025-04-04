@@ -307,3 +307,13 @@ let dolares= parseFloat(prompt('ingrese el monto en dolares'))
 let tasa= parseFloat(prompt('ingrese la tasa de cambio a pesos '))
 let enPesos= (dolares,tasa)=> dolares*tasa ;
 console.log(`su valor es ${enPesos(dolares,tasa)}`)
+
+// ● Ejercicio 4: Verificar estado de vacunación
+// Solicita al usuario el nombre de su mascota y si está vacunada. 
+// Usa una función flecha para verificar y mostrar su estado de vacunación.
+
+let nombreMascota = prompt('Ingrese el nombre de su mascota');
+let vacuna = prompt('¿Está vacunada? (si/no)');
+let EstadoVacunacion = (nombreMascota, vacuna) => { return vacuna === "si" ? 
+	`${nombreMascota} está al día con las vacunas.` : `${nombreMascota} necesita vacunarse.`;};
+console.log(EstadoVacunacion(nombreMascota, vacuna)); 
