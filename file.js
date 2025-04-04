@@ -333,3 +333,11 @@ let numero= parseInt(prompt('Intenta Adividar, ingresa un número del 1 al 10'))
 let ARRAY= [1,2,3,4,5,6,7,8,9,10]
 let numeroAZAR= ARRAY [Math.floor(Math.random() * ARRAY.length)]
 numeroAZAR === numero ? console.log('Felicitaciones, ¡ese era!'): console.log('Lo siento, ¡intenta nuevamente!');
+
+//Ejercicio 6: Numero pares
+// Escribí un programa que imprima los números pares del 0 al 100. No es necesario pedirle al usuario,
+// solo imprimir el resultado. Agreguen los números pares a un array.
+// Pista: Usa un ciclo
+
+for(let ciclo=2 ; ciclo <= 100 ; ciclo+=2){console.log(ciclo)}
+
