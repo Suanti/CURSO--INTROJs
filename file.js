@@ -317,3 +317,19 @@ let vacuna = prompt('¿Está vacunada? (si/no)');
 let EstadoVacunacion = (nombreMascota, vacuna) => { return vacuna === "si" ? 
 	`${nombreMascota} está al día con las vacunas.` : `${nombreMascota} necesita vacunarse.`;};
 console.log(EstadoVacunacion(nombreMascota, vacuna)); 
+
+// Ejercicio 5: Número secreto
+//Escribí un programa que piense un numero de forma aleatoria del 1 al 10 y le
+//pida al usuario que lo trate de adivinar. Si el número es correcto debe imprimir 
+//en la consola '“Felicitaciones, ¡ese era!", de lo contrario, debe imprimir "Lo siento, ¡intenta nuevamente!"
+
+let numero= parseInt(prompt('Intenta Adividar, ingresa un número del 1 al 10'))
+let Azarnumber= Math.floor(Math.random()*11 + 1)
+if  (numero === Azarnumber)  {console.log('Felicitaciones, ¡ese era!')}
+else {console.log('Lo siento, ¡intenta nuevamente!')}
+
+// Usando un ARRAY
+let numero= parseInt(prompt('Intenta Adividar, ingresa un número del 1 al 10'))
+let ARRAY= [1,2,3,4,5,6,7,8,9,10]
+let numeroAZAR= ARRAY [Math.floor(Math.random() * ARRAY.length)]
+numeroAZAR === numero ? console.log('Felicitaciones, ¡ese era!'): console.log('Lo siento, ¡intenta nuevamente!');
