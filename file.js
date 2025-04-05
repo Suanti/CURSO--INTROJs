@@ -341,3 +341,12 @@ numeroAZAR === numero ? console.log('Felicitaciones, ¡ese era!'): console.log('
 
 for(let ciclo=2 ; ciclo <= 100 ; ciclo+=2){console.log(ciclo)}
 
+//Ejercicio 7: Números Naturales
+// Se ingresa por teclado un número natural de hasta 2 cifras, si tiene una cifra 
+// que muestre lo que le falta para ser un número de 2 cifras; de lo contrario, que muestre lo que le falta
+// para ser un número de 3 cifras. Considerar que el usuario ingresa números de hasta dos cifras.
+
+let numero= parseInt(prompt(' ingrese un numero del 0 al 99'));
+let faltante 
+if ( numero < 10)  {faltante =  10 - numero } else {faltante = 100 - numero }
+console.log ( `te falta ${faltante} para llegar a mas cifras `)
