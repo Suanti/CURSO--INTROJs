@@ -350,3 +350,12 @@ let numero= parseInt(prompt(' ingrese un numero del 0 al 99'));
 let faltante 
 if ( numero < 10)  {faltante =  10 - numero } else {faltante = 100 - numero }
 console.log ( `te falta ${faltante} para llegar a mas cifras `)
+
+//Ejercicio 8: Número N
+// Hacer un programa que calcule la suma de los N primeros números naturales,
+//  dónde N es el número límite ingresado por teclado.
+
+let N = parseInt(prompt('ingrese un número entero positivo'))
+let suma = 0
+for (let i = 0; i < N; i++) { console.log(i); suma += i }
+console.log( `la suma de los numeros naturales menores a N es : ${suma}`)
